@@ -1,4 +1,5 @@
 import "@bospieter/ws-helper/styles.css";
+//@ts-ignore
 import { add, initBody } from "@bospieter/ws-helper";
 
 import { Observable } from "rxjs";
