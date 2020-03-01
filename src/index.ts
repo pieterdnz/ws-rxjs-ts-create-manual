@@ -9,8 +9,6 @@ initBody("rx create manual");
 const o = new Observable(observable => {
   setTimeout(() => {
     observable.next("Next value");
-    observable.next("Next value");
-    observable.next("Next value");
     observable.complete();
   }, 4000);
 });
